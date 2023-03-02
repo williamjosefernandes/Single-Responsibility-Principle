@@ -1,14 +1,15 @@
 package br.com.william.fernandes.srp
 
-import android.util.Log
-
 class Cozinheiro {
 
+    var pratoPrincipalPreparado = false
+    var sobremesaPreparada = false
+
     fun prepararPratoPrincipal() {
-        Log.d("Cozinheiro", "Preparar o prato principal")
+        pratoPrincipalPreparado = true
     }
 
     fun prepararSobremesa() {
-        Log.d("Cozinheiro", "Preparar a sobremesa")
+        sobremesaPreparada = true
     }
 }

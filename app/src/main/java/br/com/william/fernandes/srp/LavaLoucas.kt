@@ -4,7 +4,9 @@ import android.util.Log
 
 class LavaLoucas {
 
+    var loucaLavada = false
+
     fun lavarLouca() {
-        Log.d("Lava Louças", "Lavar a louça")
+        loucaLavada = true
     }
 }

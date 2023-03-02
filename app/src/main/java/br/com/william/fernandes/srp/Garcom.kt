@@ -4,7 +4,9 @@ import android.util.Log
 
 class Garcom {
 
+    var bebidasServidas = false
+
     fun servirBebidas() {
-        Log.d("Garçom", "Servir as bebidas")
+        bebidasServidas = true
     }
 }
