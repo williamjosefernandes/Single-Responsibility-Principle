@@ -3,8 +3,7 @@
 
 O Princípio da Responsabilidade Única (SRP) é um dos princípios mais importantes da programação orientada a objetos. Ele estabelece que cada classe deve ter uma única responsabilidade, ou seja, ela deve ter apenas uma razão para mudar.
 
-![image](https://user-images.githubusercontent.com/7990074/222463193-d0e5a76b-ec59-49e5-b05c-261d2374063a.png)
-Para ilustrar este princípio, podemos utilizar a analogia do chef de cozinha. Imagine que temos uma classe Chef, que é responsável por cozinhar o prato principal, preparar a sobremesa, servir as bebidas e lavar a louça. Neste caso, a classe Chef estaria violando o princípio da responsabilidade única, pois tem várias responsabilidades.
+![image](https://user-images.githubusercontent.com/7990074/222463193-d0e5a76b-ec59-49e5-b05c-261d2374063a.png)Para ilustrar este princípio, podemos utilizar a analogia do chef de cozinha. Imagine que temos uma classe Chef, que é responsável por cozinhar o prato principal, preparar a sobremesa, servir as bebidas e lavar a louça. Neste caso, a classe Chef estaria violando o princípio da responsabilidade única, pois tem várias responsabilidades.
 
 Para resolver esse problema, podemos dividir as responsabilidades em classes separadas. Por exemplo, podemos ter uma classe Cozinheiro, que é responsável por cozinhar o prato principal e preparar a sobremesa, uma classe Garçom, que é responsável por servir as bebidas, e uma classe LavaLoucas, que é responsável por lavar a louça.
 Desenvolvi exemplo de implementação deste princípio em uma aplicação Android com arquitetura MVVM em Kotlin, utilizando a analogia do chef de cozinha:
